@@ -1,0 +1,26 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family:"RockoUltraFLF";
+	src:url("rockoUltraFLF/RockoUltraFLF.eot?") format("eot"),url("rockoUltraFLF/RockoUltraFLF.woff") format("woff"),url("rockoUltraFLF/RockoUltraFLF.ttf") format("truetype"),url("rockoUltraFLF/RockoUltraFLF.svg#RockoUltraFLF") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+ @font-face {
+	font-family:"Verdana";
+	src:url("verdana/Verdana.eot?") format("eot"), url("verdana/Verdana.ttf") format("truetype"), url("verdana/Verdana.woff") format("woff"), url("verdana/Verdana.svg") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+ @font-face {
+	font-family:"Trebuchet MS";
+	src:url("Trebuchet-MS/Trebuchet MS.ttf") format("truetype");
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
+	font-family: 'MYRIADPROREGULAR';
+	src: url('MYRIADPROREGULAR-thumb/MYRIADPROREGULAR.eot') format("eot");
+	src: local('MYRIADPROREGULAR-thumb/MYRIADPROREGULAR'), url('MYRIADPROREGULAR-thumb/MYRIADPROREGULAR.woff') format('woff'), url('MYRIADPROREGULAR-thumb/MYRIADPROREGULAR.ttf') format('truetype');
+}
+
+

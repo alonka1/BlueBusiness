@@ -1,0 +1,27 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family:"RockoUltraFLF";
+	src:url("RockoUltraFLF.eot?") format("eot"),url("RockoUltraFLF.woff") format("woff"),url("RockoUltraFLF.ttf") format("truetype"),url("RockoUltraFLF.svg#RockoUltraFLF") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+ @font-face {
+	font-family:"Verdana";
+	src:url("Verdana.ttf") format("truetype"), url("Verdana.woff") format("woff"), ("Verdana.svg) format("svg"),
+	url("Verdana.eot") format("eot");
+	font-weight:normal;font-style:normal;
+}
+
+ @font-face {
+	font-family:"Trebuchet MS";
+	src:url("Trebuchet MS.ttf") format("truetype"),;
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
+	font-family: 'MYRIADPROREGULAR';
+	src: url('MYRIADPROREGULAR.eot') format("eot");
+	src: local('MYRIADPROREGULAR'), url('MYRIADPROREGULAR.woff') format('woff'), url('MYRIADPROREGULAR.ttf') format('truetype');
+}
+
+
