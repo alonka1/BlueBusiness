@@ -101,7 +101,7 @@ header .logo-righr p {
     padding-left: 20px;
 }
 
-/*.menu p.list {
+.menu p.list {
     content: " ";
     position: absolute;
     top: -4px;
@@ -111,7 +111,7 @@ header .logo-righr p {
     border-style: solid;
     border-width: 0 31px 38px 0;
     border-color: transparent #2d2e2e transparent transparent;
-}*/
+}
 
 .container .slaider_show .menu ul li {
     margin-right: 31px;
@@ -177,15 +177,25 @@ header .logo-righr p {
     position: absolute;
     width: 950px;
     height: 377px;
-    background-image: url("/images/slider_background.png");
+    /*background-image: url("/images/slider_background.png");*/
 }
 
+
+
+ img {position: absolute;}
 .container .slaider_show .bxslider li {
     margin: 0px;
     padding: 0px;
 }
+.container .slaider_show .bx-viewport{
+    height: 377px !important;
+}
+.container .slaider_show .bxslider{
+    padding:0px;
+}
 
 .slider_inner {
+    position: relative;
     width: 651px;
     height: 214px;
     margin-top: 88px;
@@ -448,7 +458,7 @@ header .logo-righr p {
     margin-top: 10px;
 }
 
-/*Оля*/
+/*Блок з картинками*/
 .block_image {
     margin-top: 15px;
 }
