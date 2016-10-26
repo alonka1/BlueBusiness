@@ -97,15 +97,19 @@ header .logo-righr p {
 }
 
 .container .slaider_show .menu ul {
-    height: 100%;
+    height: 94%;
     padding-left: 20px;
+    width: 93%;
+    background: #2d2e2e;
+    margin-left: 0px;
+    border-top-right-radius: 20px;
 }
 
 .menu p.list {
     content: " ";
     position: absolute;
-    top: -4px;
-    left: 0px;
+    top: 0px;
+    left: -2px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -114,7 +118,7 @@ header .logo-righr p {
 }
 
 .container .slaider_show .menu ul li {
-    margin-right: 31px;
+    margin-right: 25px;
     list-style: none;
     float: left;
 }
@@ -182,7 +186,7 @@ header .logo-righr p {
 
 
 
- img {position: absolute;}
+.bxslider img {position: absolute;}
 .container .slaider_show .bxslider li {
     margin: 0px;
     padding: 0px;
