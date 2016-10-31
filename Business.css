@@ -99,7 +99,7 @@ header .logo-righr p {
 .container .slaider_show .menu ul {
     height: 94%;
     padding-left: 20px;
-    width: 93%;
+    width: 96%;
     background: #2d2e2e;
     margin-left: 0px;
     border-top-right-radius: 20px;
@@ -118,7 +118,7 @@ header .logo-righr p {
 }
 
 .container .slaider_show .menu ul li {
-    margin-right: 25px;
+    margin-right: 29px;
     list-style: none;
     float: left;
 }
@@ -181,15 +181,19 @@ header .logo-righr p {
     position: absolute;
     width: 950px;
     height: 377px;
-    /*background-image: url("/images/slider_background.png");*/
 }
 
+.bxslider { border-radius: 25px;}
 
 
-.bxslider img {position: absolute;}
 .container .slaider_show .bxslider li {
     margin: 0px;
     padding: 0px;
+    height: 377px;
+    border-radius: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    overflow: hidden;
 }
 .container .slaider_show .bx-viewport{
     height: 377px !important;
@@ -199,11 +203,11 @@ header .logo-righr p {
 }
 
 .slider_inner {
-    position: relative;
+    position: absolute;
     width: 651px;
     height: 214px;
-    margin-top: 88px;
-    margin-left: 67px;
+    top: 88px;
+    left: 67px;
 }
 
 .slider_inner h2 {
@@ -300,14 +304,18 @@ header .logo-righr p {
 
 /* Контент*/
 .content {
+    margin-top: 4px;
     width: 100%;
-    height: 586px;
-    margin-top: 15px;
+    height: 690px;
 }
 
-.contact {
-    width: 605px;
-    height: 54px;
+.contact {padding-top: 15px;
+    background-color: white;
+    position: relative;
+    width: 800px;
+    height: 77px;
+    border-radius: 0 40px 0 0;
+    box-shadow: inset 0 19px 15px -18px #333;
 }
 
 .contact .contact_block {
@@ -334,8 +342,8 @@ header .logo-righr p {
 }
 
 .contact p {
-    margin: 10px 3px 0 0px;
-    float: right;
+    margin: 10px 3px 0 14px;
+    float: left;
     font-size: 18px;
     font-family: "Verdana";
     color: #858585;
@@ -475,7 +483,7 @@ header .logo-righr p {
 footer {
     background-image: url("/images/Footer.png");
     background-repeat: no-repeat;
-    margin: 0px;
+    margin-top: 42px;
     padding: 0px;
     position: relative;
     width: 100%;
@@ -509,4 +517,10 @@ footer {
 
 footer b {
     color: #1c65a1;
+}
+
+.text p a:hover {
+    color: #ffffff;
+    text-decoration: none;
+
 }
